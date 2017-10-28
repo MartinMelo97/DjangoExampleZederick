@@ -1,0 +1,7 @@
+{%extends 'base.html'%}
+{%block titulo%}los sopes{%endblock titulo%}
+
+{%block content%}
+<h1>Bienvenido {%if pollo %} con pollo {%else%} con pollo aunque no sea cierto {%endif%}</h1>
+<p>Yo quiero {{cantidad}} sopes de {{sabor}}</p>
+{%endblock content%}

@@ -1,0 +1,7 @@
+{%extends 'base.html'%}
+
+{%block titulo%}Niveles{%endblock titulo%}
+
+{%block content%}
+<h1>Niveles: {% for nivel in niveles%} {{nivel}} {%endfor%}</h1>
+{%endblock content%}

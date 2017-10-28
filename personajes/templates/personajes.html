@@ -1,0 +1,7 @@
+{%extends 'base.html'%}
+
+{%block titulo%}Personajes{%endblock titulo%}
+
+{%block content%}
+<h1>Los Personajes son: {% for personaje in personajes%} {{personaje}} {%endfor%}</h1>
+{%endblock content%}
